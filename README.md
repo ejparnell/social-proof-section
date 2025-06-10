@@ -6,7 +6,7 @@ This project is a responsive **social proof section** based on a mockup from [Fr
 
 ## 🖥️ Live Demo
 
-- 🔗 [Live Site](tktk)
+- 🔗 [Live Site](https://bp-socail-proof-section.netlify.app/)
 - 💻 [Code Repository](https://github.com/ejparnell/social-proof-section)
 
 ---
@@ -23,8 +23,8 @@ This project is a responsive **social proof section** based on a mockup from [Fr
 
 ## 📸 Preview
 
-![Desktop View]('./screenshots/desktop.png')
-![Mobile View]('./screenshots/mobile.png')
+![Desktop View](./screenshots/desktop.png)
+![Mobile View](./screenshots/mobile.png)
 
 ---
 
