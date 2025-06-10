@@ -1,14 +1,15 @@
 import type { Metadata } from 'next';
-import { Geist } from 'next/font/google';
-import './globals.css';
+import { League_Spartan } from 'next/font/google';
+import '@/styles/globals.css';
 
-const geistSans = Geist({
-    variable: '--font-geist-sans',
+const leagueSpartan = League_Spartan({
+    variable: '--font-league-spartan',
     subsets: ['latin'],
+    weight: ['400', '500', '700'],
 });
 
 export const metadata: Metadata = {
-    title: 'Frontend Mentor | Next.js Template',
+    title: 'Frontend Mentor | Social proof section',
     keywords: ['Frontend Mentor', 'Next.js', 'React', 'Web Development'],
     authors: [{ name: 'Elizabeth Parnell' }],
     creator: 'Elizabeth Parnell',
@@ -17,7 +18,8 @@ export const metadata: Metadata = {
         apple: '/favicon-32x32.png',
         shortcut: '/favicon-32x32.png',
     },
-    description: 'A Next.js template for Frontend Mentor challenges',
+    description:
+        'Frontend Mentor | Social proof section challenge solution using Next.js and React.',
 };
 
 export default function RootLayout({
@@ -27,7 +29,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={geistSans.variable}>{children}</body>
+            <body className={leagueSpartan.variable}>{children}</body>
         </html>
     );
 }

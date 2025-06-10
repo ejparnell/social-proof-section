@@ -1,0 +1,35 @@
+.ratingCard {
+    min-width: 327px;
+    max-width: 445px;
+    height: 78px;
+    background-color: var(--light-grey-magenta);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-sm);
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.review {
+    font-size: 17px;
+    font-weight: var(--font-weight-bold);
+    color: var(--magenta);
+}
+
+@media screen and (min-width: 1440px) {
+    .ratingCard {
+        flex-direction: row;
+        gap: var(--spacing-lg);
+        height: 56px;
+        width: 445px;
+        justify-content: flex-start;
+        padding: 0 var(--spacing-lg);
+    }
+}

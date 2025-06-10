@@ -1,0 +1,24 @@
+.commentCardList {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-xl);
+}
+
+@media screen and (min-width: 1440px) {
+    .commentCardList {
+        display: flex;
+        flex-direction: row;
+        gap: var(--spacing-lg);
+        margin-top: var(--spacing-md);
+    }
+    .commentCardList > div:first-child {
+        margin-top: 0;
+    }
+    .commentCardList > div:nth-child(2) {
+        margin-top: calc(var(--spacing-lg) * 0.5);
+    }
+    .commentCardList > div:nth-child(3) {
+        margin-top: calc(var(--spacing-lg) * 1);
+    }
+}

@@ -1,0 +1,36 @@
+:root {
+    /* Colors */
+    --magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grey-magenta: hsl(303, 10%, 53%);
+    --light-grey-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Font Sizes */
+    --font-size-primary: 15px;
+
+    /* Font Families */
+    --font-family-primary: 'League Spartan', sans-serif;
+
+    /* Font Weight */
+    --font-weight-normal: 400;
+    --font-weight-semibold: 500;
+    --font-weight-bold: 700;
+
+    /* Breakpoints */
+    --breakpoint-mobile: 375px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 1440px;
+
+    /* Spacing */
+    --spacing-xxs: 4px;
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 32px;
+    --spacing-xl: 40px;
+    --spacing-xxl: 48px;
+
+    /* Border Radius */
+    --border-radius: 8px;
+}

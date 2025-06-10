@@ -1,72 +1,65 @@
-# tktk - Project Title
+# Social Proof Section - Frontend Mentor Challenge
 
-<!-- tktk - Overview of the project, its purpose, and what it aims to achieve. Example below: -->
-<!-- This project is a responsive article preview card component based on a mockup from [Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Reimagined and built by **Elizabeth Parnell**, this implementation showcases modern web development practices using **Next.js**, **React**, **TypeScript**, and **CSS Modules**. -->
+This project is a responsive **social proof section** based on a mockup from [Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Reimagined and built by **Elizabeth Parnell**, this implementation showcases modern web development practices using **Next.js**, **React**, **TypeScript**, and **CSS Modules**.
 
 ---
 
 ## 🖥️ Live Demo
 
 - 🔗 [Live Site](tktk)
-- 💻 [Code Repository](tktk)
+- 💻 [Code Repository](https://github.com/ejparnell/social-proof-section)
 
 ---
 
 ## 🧰 Tech Stack
 
-<!-- tktk - List of technologies used in the project, example below: -->
-<!-- - **Next.js** – React framework for optimized rendering
+- **Next.js** – React framework for optimized rendering
 - **React** – Modular component architecture
 - **TypeScript** – Type safety for more maintainable code
 - **CSS Modules** – Locally scoped styles
-- **Mobile-first design** – Built to perform seamlessly across screen sizes -->
+- **Mobile-first design** – Built to perform seamlessly across screen sizes
 
 ---
 
 ## 📸 Preview
 
-<!-- tktk Preview images here -->
+![Desktop View]('./screenshots/desktop.png')
+![Mobile View]('./screenshots/mobile.png')
 
 ---
 
 ## 📐 Features
 
-<!-- tktk - List of features implemented in the project, example below: -->
-<!-- - Responsive layout that adapts to mobile and desktop screens
-- Share icon that toggles visibility of social media links
-- Smooth toggle logic with lightweight JavaScript
-- Clean and semantic HTML for accessibility and maintainability -->
+- Responsive layout that adapts from mobile to desktop views
+- Clean HTML structure and modular CSS architecture
+- Visual emphasis on customer ratings and testimonials
+- Mobile-first CSS for optimized performance and UX
 
 ---
 
 ## 💡 Highlights & Learnings
 
-<!-- tktk - Key takeaways from the project, example below: -->
-<!-- During this build, I focused on:
+During this build, I focused on:
 
-- Structuring reusable and accessible components
-- Managing state for toggling UI visibility
-- Enhancing mobile responsiveness with clean CSS layout techniques
-- Using **TypeScript** to ensure reliability in interactivity and prop management -->
+- Structuring layout using **CSS Flexbox** for responsive design
+- Leveraging mobile-first principles for performance and responsiveness
+- Building semantic HTML to support screen readers and accessibility
 
 ---
 
 ## 🚧 Areas for Future Iteration
 
-<!-- tktk - Potential improvements or features to add in the future, example below: -->
-<!-- - Add keyboard accessibility for the share toggle
-- Animate the share menu with a slide or fade effect
-- Expand component for dynamic content using props or data files -->
+- Animate testimonials on scroll for subtle visual enhancement
+- Add dynamic content integration from a JSON file or CMS
+- Improve accessibility by enhancing keyboard navigation and ARIA labels
 
 ---
 
 ## 📚 Resources & Credits
 
-<!-- tktk - List of resources used in the project, example below: -->
-
-- [Frontend Mentor Challenge](tktk) – Original mockup and layout specs
-  <!-- - [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [MDN Web Docs](https://developer.mozilla.org/en-US/) – Reference for web standards -->
+- [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA) – Original mockup and layout specs
+- [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) – Reference for web standards
 
 ---
 
@@ -87,8 +80,8 @@ Software Engineer | Frontend Specialist | UX Enthusiast
 To run this project locally:
 
 ```bash
-git clone tktk
-cd tktk
+git clone https://github.com/ejparnell/social-proof-section.git
+cd social-proof-section
 npm install
 npm run dev
 ```

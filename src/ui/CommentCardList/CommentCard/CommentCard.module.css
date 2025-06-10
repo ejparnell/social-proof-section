@@ -1,0 +1,47 @@
+.commentCard {
+    min-width: 327px;
+    max-width: 350px;
+    background-color: var(--magenta);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+}
+
+.userInfo {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.name {
+    font-size: var(--font-size-primary);
+    font-weight: var(--font-weight-semibold);
+    color: var(--white);
+}
+
+.buyer {
+    font-size: var(--font-size-primary);
+    font-weight: var(--font-weight-normal);
+    color: var(--soft-pink);
+    margin-top: var(--spacing-xxs);
+}
+
+.comment {
+    font-size: var(--font-size-primary);
+    color: var(--white);
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    font-weight: var(--font-weight-normal);
+}
+
+@media screen and (min-width: 1440px) {
+    .commentCard {
+        height: 234px;
+    }
+}
